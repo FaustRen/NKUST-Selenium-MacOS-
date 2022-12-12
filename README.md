@@ -1,4 +1,6 @@
 # NKUST-Selenium-for-MacOS
+![GITHUB](https://github.com/FaustRen/NKUST-Selenium-MacOS-/blob/main/NKUST校務系統截圖.png)
+---
 ## _我的Python版本: 3.9.13_
 ---
 * 套件
@@ -7,7 +9,12 @@
   * ddddocr
   * requests(登入成功時利用LineNotify通知)
 ---
-輸入學號、密碼->執行，
+## 輸入學號、密碼->執行
+### step.1
+![GITHUB](https://github.com/FaustRen/NKUST-Selenium-MacOS-/blob/main/SeleniumNKUST-Step1.png)
+### step.2
+![GITHUB](https://github.com/FaustRen/NKUST-Selenium-MacOS-/blob/main/SeleniumNKUST-Step2.png)
+---
 ```
 ###原理:
 [1]設定學號與密碼
