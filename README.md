@@ -8,7 +8,7 @@
 [使用情境]: 適合在開學時校務系統異常 需要浪費時間重複登入,為了第一時間搶停車證的學生使用(可從程式碼調整迴圈次數)
 [限制]:    Windows需根據下方內容調整截圖參數,不確定程式是否適用每個人
 ```
-## Demo[執行畫面(YT)]:
+## Demo[點圖看執行畫面(Youtube)]
 [![](https://github.com/FaustRen/NKUST-Selenium-MacOS-/blob/main/圖片/Demo.png)](https://www.youtube.com/watch?v=B88ZhaFCKgI)
 ---
 ## _我的Python版本: 3.9.13_
