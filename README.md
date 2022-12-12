@@ -21,12 +21,11 @@
   * ddddocr
   * requests(登入成功時利用LineNotify通知)
 ---
-# Usage
----
-## 輸入學號、密碼->執行
-### step.1
+# Usage：輸入學號、密碼->執行
+
+### _step.1_
 ![GITHUB](https://github.com/FaustRen/NKUST-Selenium-MacOS-/blob/main/圖片/SeleniumNKUST-Step1.png)
-### step.2
+### _step.2_
 ![GITHUB](https://github.com/FaustRen/NKUST-Selenium-MacOS-/blob/main/圖片/SeleniumNKUST-Step2.png)
 ---
 ### 原理:
