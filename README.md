@@ -22,6 +22,7 @@
 ### 由於Mac顯示器與Windows顯示器有差別,所以要調整參數如下圖,請參考以下連結:
 ![GITHUB](https://github.com/FaustRen/NKUST-Selenium-MacOS-/blob/main/不同系統需調整參數.png)
 ---
+* 顯示器設定: https://blog.csdn.net/m0_54634272/article/details/119182147
 * 截圖: https://justcode.ikeepstudying.com/2019/12/python-selenium获取验证码-selenium-webdriver-登录验证码的处理-selenium获取验/
 * driver - 設定 Chrome: https://blog.csdn.net/yutu75/article/details/115524985
 ---
