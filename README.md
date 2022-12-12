@@ -1,5 +1,7 @@
 # NKUST-Selenium-for-MacOS
 ---
+![GITHUB](https://github.com/FaustRen/NKUST-Selenium-MacOS-/blob/main/圖片/NKUST校務系統截圖.png)
+---
 ## 目的
 ```
 [目標]:             這是一個自動登入NKUST校務系統並可利用Line Notify通知登入成功的program,
@@ -7,8 +9,6 @@
 ```
 ## Demo[執行畫面(YT)]:
 * https://www.youtube.com/watch?v=B88ZhaFCKgI&feature=youtu.be
----
-![GITHUB](https://github.com/FaustRen/NKUST-Selenium-MacOS-/blob/main/圖片/NKUST校務系統截圖.png)
 ---
 ## _我的Python版本: 3.9.13_
 ---
