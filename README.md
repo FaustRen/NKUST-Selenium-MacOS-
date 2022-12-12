@@ -4,9 +4,10 @@
 ```
 [目標]:             這是一個自動登入NKUST校務系統並可利用Line Notify通知登入成功的program,
 [使用情境]:          適合在開學時校務系統異常 需要重複登入第一時間搶到停車證的碩士生使用(可從程式碼調整迴圈次數)
-[執行畫面(YT)]:      https://www.youtube.com/watch?v=B88ZhaFCKgI&feature=youtu.be
 ```
-
+## Demo[執行畫面(YT)]:
+* https://www.youtube.com/watch?v=B88ZhaFCKgI&feature=youtu.be
+---
 ![GITHUB](https://github.com/FaustRen/NKUST-Selenium-MacOS-/blob/main/NKUST校務系統截圖.png)
 ---
 ## _我的Python版本: 3.9.13_
@@ -45,7 +46,8 @@
 ---
 ## 聲明
 ```
-僅練習(Github & Python)用,若有人願意幫忙修改程式歡迎
+僅用於學習和交流
+歡迎任何人參與&完善
 ```
 
 
