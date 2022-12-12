@@ -9,8 +9,7 @@
 [限制]:    Windows需根據下方內容調整截圖參數,不確定程式是否適用每個人
 ```
 ## Demo[執行畫面(YT)]:
-* https://www.youtube.com/watch?v=B88ZhaFCKgI&feature=youtu.be
-[https://github.com/FaustRen/NKUST-Selenium-MacOS-/blob/main/圖片/Demo.png](https://www.youtube.com/watch?v=B88ZhaFCKgI)
+[![](https://github.com/FaustRen/NKUST-Selenium-MacOS-/blob/main/圖片/Demo.png)](https://www.youtube.com/watch?v=B88ZhaFCKgI)
 ---
 ## _我的Python版本: 3.9.13_
 ---
