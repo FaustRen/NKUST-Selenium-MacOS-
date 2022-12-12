@@ -6,7 +6,7 @@
 ```
 [目標]:    這是一個自動登入NKUST校務系統並可利用Line Notify通知登入成功的program,
 [使用情境]: 適合在開學時校務系統異常 需要浪費時間重複登入,為了第一時間搶停車證的學生使用(可從程式碼調整迴圈次數)
-[限制]:    Windows需根據下方內容調整截圖參數,不確定程式是否適用每個人
+[限制]:    Windows需根據下方 "參考連結(Windows顯示器設定)" 調整截圖參數,不確定程式是否適用每個人
 ```
 ## Demo[點圖看執行畫面(Youtube)]
 [![](https://github.com/FaustRen/NKUST-Selenium-MacOS-/blob/main/圖片/Demo.png)](https://www.youtube.com/watch?v=B88ZhaFCKgI)
@@ -44,9 +44,7 @@
 ### _*Mac version*_
 ![GITHUB](https://github.com/FaustRen/NKUST-Selenium-MacOS-/blob/main/圖片/不同系統需調整參數.png)
 ---
-### _*Windows顯示器設定*_
-![GITHUB](https://github.com/FaustRen/NKUST-Selenium-MacOS-/blob/main/圖片/windows設定.png)
----
+### _*參考連結*_
 * Windows顯示器設定: https://blog.csdn.net/m0_54634272/article/details/119182147
 * 截圖: https://justcode.ikeepstudying.com/2019/12/python-selenium获取验证码-selenium-webdriver-登录验证码的处理-selenium获取验/
 * driver - 設定 Chrome: https://blog.csdn.net/yutu75/article/details/115524985
