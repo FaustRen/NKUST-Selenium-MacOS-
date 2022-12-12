@@ -19,8 +19,14 @@ def line_notify(message,notify_time,line_token_input):
 
 
 class GoNKUST:
+    """_登入高科校務系統_
+    [1] 請設定:學號、密碼
+    [2] 安裝&更新 opencv
+    [3] 安裝ddddocr
+    """
     
     def __init__(self, st_id, st_pwd,img_path='./screenshot_2.png',verify_code_path='./verifyCode4.png'):
+        """設定學號、密碼、網頁截圖路徑、驗證碼存取路徑(確認是否正確截取驗證碼)"""
         self.st_id=st_id
         self.st_pwd=st_pwd
         self.img_path=img_path
@@ -28,6 +34,7 @@ class GoNKUST:
         
         
     def setUp(self, url):
+        """設定driver"""
         self.chrome_options = Options()
         self.driver=webdriver.Chrome(executable_path='./chromedriver', chrome_options=self.chrome_options)
         self.driver.set_window_size(1200,851)
@@ -40,14 +47,17 @@ class GoNKUST:
         print("get screen sucessfully")
         
     def idElement(self,id_name):
+        """Get ID element"""
         element_output = self.driver.find_element(By.ID, id_name)
         return element_output
     
     def tagElement(self, tag_name):
+        """Get Tag element"""
         tag_output = self.driver_find_element(By.TAG_NAME, tag_name)
         return tag_output
 
     def elementLocation(self, element_input):
+        """定位驗證碼"""
         left = int(element_input.location['x'])*2
         top = int(element_input.location['y'])*2
         right = int(element_input.location['x'] + element_input.size['width'])*2
@@ -55,6 +65,7 @@ class GoNKUST:
         return left,top,right,bottom
     
     def locateImg(self,left,top,right,bottom):
+        """截取網頁截圖中的驗證碼"""
         im = Image.open(self.img_path)
         im = im.crop((left, top, right, bottom))
         im = im.convert("RGB")
@@ -65,6 +76,7 @@ class GoNKUST:
         return verify_code_res
     
     def loginNKUST(self,):
+        """執行以上"""
         self.setUp("https://webap.nkust.edu.tw/nkust/index_main.html?1111")
         element1 = self.idElement('verifyCode')
         left_side, top_side, right_side, bottom_side=self.elementLocation(element1)
