@@ -41,7 +41,7 @@
 ```
 ---
 ### 由於Mac顯示器與Windows顯示器有差別,所以要調整參數如下圖,請參考以下連結:
-### _*由此調整顯示器參數*_
+### _*Windows由此調整顯示器參數*_
 ![GITHUB](https://github.com/FaustRen/NKUST-Selenium-MacOS-/blob/main/圖片/不同系統需調整參數.png)
 ---
 ### _*參考連結*_
