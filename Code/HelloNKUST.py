@@ -1,4 +1,3 @@
-#%%
 import time
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
@@ -109,49 +108,7 @@ if __name__ == '__main__':
             if driver_res.find_elements(By.TAG_NAME, "li") is not None:
                 print("Y")
                 # line_notify("已登入校務系統",line通知次數,line權杖)
-        
                 break
         except: 
             goNkust.closerDriver()
             continue
-        
-    
-    
-    
-        
-    
-    
-    
-    
-        
-    
-    
-                
-        
-
-# %%
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
