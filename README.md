@@ -6,6 +6,7 @@
 ```
 [目標]:    這是一個自動登入NKUST校務系統並可利用Line Notify通知登入成功的program,
 [使用情境]: 適合在開學時校務系統異常 需要浪費時間重複登入,為了第一時間搶停車證的學生使用(可從程式碼調整迴圈次數)
+[限制]:    Windows需根據下方內容調整截圖參數,不確定程式是否適用每個人
 ```
 ## Demo[執行畫面(YT)]:
 * https://www.youtube.com/watch?v=B88ZhaFCKgI&feature=youtu.be
