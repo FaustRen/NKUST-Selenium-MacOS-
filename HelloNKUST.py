@@ -10,6 +10,7 @@ import requests
 
 
 def line_notify(message,notify_time,line_token_input):
+    """Line Notify"""
     LINE_URL = 'https://notify-api.line.me/api/notify'
     LINE_TOKEN = line_token_input
     for _ in range(notify_time):
@@ -22,13 +23,14 @@ def line_notify(message,notify_time,line_token_input):
 class GoNKUST:
     
     def __init__(self, st_id, st_pwd,img_path='./screenshot_2.png',verify_code_path='./verifyCode4.png'):
-        self.st_id=st_id
-        self.st_pwd=st_pwd
-        self.img_path=img_path
-        self.verify_code_path=verify_code_path
+        self.st_id=st_id#學號
+        self.st_pwd=st_pwd#密碼
+        self.img_path=img_path#網頁截圖存取路徑
+        self.verify_code_path=verify_code_path#抓取截圖的驗證碼位置(確認是否定位準確)
         
         
     def setUp(self, url):
+        """設定driver"""
         self.chrome_options = Options()
         self.driver=webdriver.Chrome(executable_path='./chromedriver', chrome_options=self.chrome_options)
         self.driver.set_window_size(1200,851)
@@ -41,14 +43,17 @@ class GoNKUST:
         print("get screen sucessfully")
         
     def idElement(self,id_name):
+        """get id element"""
         element_output = self.driver.find_element(By.ID, id_name)
         return element_output
     
     def tagElement(self, tag_name):
+        """get tag element"""
         tag_output = self.driver_find_element(By.TAG_NAME, tag_name)
         return tag_output
 
     def elementLocation(self, element_input):
+        """定位截圖內的驗證碼位置, Windows需調整參數"""
         left = int(element_input.location['x'])*2
         top = int(element_input.location['y'])*2
         right = int(element_input.location['x'] + element_input.size['width'])*2
@@ -56,6 +61,7 @@ class GoNKUST:
         return left,top,right,bottom
     
     def locateImg(self,left,top,right,bottom):
+        """根據func[elementLocation]的4個位置擷取驗證碼"""
         im = Image.open(self.img_path)
         im = im.crop((left, top, right, bottom))
         im = im.convert("RGB")
@@ -66,6 +72,7 @@ class GoNKUST:
         return verify_code_res
     
     def loginNKUST(self,):
+        """執行一次並return driver,driver用來確認是否登入成功"""
         self.setUp("https://webap.nkust.edu.tw/nkust/index_main.html?1111")
         element1 = self.idElement('verifyCode')
         left_side, top_side, right_side, bottom_side=self.elementLocation(element1)
@@ -98,7 +105,7 @@ if __name__ == '__main__':
     
     網頁截圖='./screenshot_2.png'
     驗證碼截圖='./verifyCode4.png'
-    line權杖="設定Line權杖"
+    line權杖="設定Line權杖"#有需要才用
     line通知次數=3
     
     # 執行
@@ -113,45 +120,5 @@ if __name__ == '__main__':
                 break
         except: 
             goNkust.closerDriver()
-            continue
-        
-    
-    
-    
-        
-    
-    
-    
-    
-        
-    
-    
-                
-        
-
-# %%
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            continue         
+#%%
