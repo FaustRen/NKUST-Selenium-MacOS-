@@ -10,7 +10,7 @@
 ```
 ## Demo[執行畫面(YT)]:
 * https://www.youtube.com/watch?v=B88ZhaFCKgI&feature=youtu.be
-[圖片/Demo.png](https://www.youtube.com/watch?v=B88ZhaFCKgI)
+[https://github.com/FaustRen/NKUST-Selenium-MacOS-/blob/main/圖片/Demo.png](https://www.youtube.com/watch?v=B88ZhaFCKgI)
 ---
 ## _我的Python版本: 3.9.13_
 ---
