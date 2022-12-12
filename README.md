@@ -13,7 +13,7 @@
 ## _我的Python版本: 3.9.13_
 ---
 * _Installation_
-  * cv2更新
+  * opencv(安裝/更新)
   * time
   * selenium
   * PIL
