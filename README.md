@@ -12,7 +12,8 @@
 ---
 ## _我的Python版本: 3.9.13_
 ---
-* 安裝
+* _Installation_
+  * cv2更新
   * time
   * selenium
   * PIL
