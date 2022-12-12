@@ -8,7 +8,7 @@
 ## Demo[執行畫面(YT)]:
 * https://www.youtube.com/watch?v=B88ZhaFCKgI&feature=youtu.be
 ---
-![GITHUB](https://github.com/FaustRen/NKUST-Selenium-MacOS-/blob/main/NKUST校務系統截圖.png)
+![GITHUB](https://github.com/FaustRen/NKUST-Selenium-MacOS-/blob/main/圖片/NKUST校務系統截圖.png)
 ---
 ## _我的Python版本: 3.9.13_
 ---
@@ -23,9 +23,9 @@
 ---
 ## 輸入學號、密碼->執行
 ### step.1
-![GITHUB](https://github.com/FaustRen/NKUST-Selenium-MacOS-/blob/main/SeleniumNKUST-Step1.png)
+![GITHUB](https://github.com/FaustRen/NKUST-Selenium-MacOS-/blob/main/圖片/SeleniumNKUST-Step1.png)
 ### step.2
-![GITHUB](https://github.com/FaustRen/NKUST-Selenium-MacOS-/blob/main/SeleniumNKUST-Step2.png)
+![GITHUB](https://github.com/FaustRen/NKUST-Selenium-MacOS-/blob/main/圖片/SeleniumNKUST-Step2.png)
 ---
 ### 原理:
 ```
@@ -40,7 +40,10 @@
 ```
 ---
 ### 由於Mac顯示器與Windows顯示器有差別,所以要調整參數如下圖,請參考以下連結:
-![GITHUB](https://github.com/FaustRen/NKUST-Selenium-MacOS-/blob/main/不同系統需調整參數.png)
+![GITHUB](https://github.com/FaustRen/NKUST-Selenium-MacOS-/blob/main/圖片/不同系統需調整參數.png)
+---
+### Windows顯示器設定
+![GITHUB](https://github.com/FaustRen/NKUST-Selenium-MacOS-/blob/main/圖片/windows設定.png)
 ---
 * Windows顯示器設定: https://blog.csdn.net/m0_54634272/article/details/119182147
 * 截圖: https://justcode.ikeepstudying.com/2019/12/python-selenium获取验证码-selenium-webdriver-登录验证码的处理-selenium获取验/
